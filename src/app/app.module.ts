@@ -11,6 +11,7 @@ import { SmcComponent } from './components/smc/smc.component';
 import { RouterModule } from '@angular/router';
 import { BuildingComponent } from './components/building/building.component';
 import { LinkComponent } from './components/link/link.component';
+import { LayoutComponent } from './components/layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LinkComponent } from './components/link/link.component';
     FooterComponent,
     SmcComponent,
     BuildingComponent,
-    LinkComponent
+    LinkComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,
