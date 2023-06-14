@@ -10,6 +10,7 @@
     height: 411px;
     background-color:rgb(243, 232, 212);
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 section{

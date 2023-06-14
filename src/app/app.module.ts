@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { BuildingComponent } from './components/building/building.component';
 import { LinkComponent } from './components/link/link.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { PclcComponent } from './components/pclc/pclc.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LayoutComponent } from './components/layout/layout.component';
     SmcComponent,
     BuildingComponent,
     LinkComponent,
-    LayoutComponent
+    LayoutComponent,
+    PclcComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +33,7 @@ import { LayoutComponent } from './components/layout/layout.component';
       {path: 'smc', component: SmcComponent},
       {path: 'building', component: BuildingComponent},
       {path: 'link', component: LinkComponent},
+      {path: 'pclc', component: PclcComponent},
       {path:'**', component: HomeComponent}
       
     ]),

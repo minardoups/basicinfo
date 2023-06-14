@@ -1,0 +1,98 @@
+/* CONTENT */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    width: 100%;
+    height: 411px;
+    background-color:rgb(243, 232, 212);
+}
+
+section{
+    width:43%;
+    float: left;
+    margin-left: 10px;
+}
+
+article, aside{
+    margin-top: 20px;
+}
+
+article p{
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.smc-link{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+.pclc1, .pclc2, .pclc3, .pclc4{
+    padding: 10px;
+    border-radius: 4px;
+    color: rgb(243, 232, 212);;
+}
+
+.pclc1{
+    background-color:#787f49;
+}
+
+.pclc2{
+    background-color:#8e9657;
+}
+.pclc3{
+    background-color:#9ba460;
+}
+.pclc4{
+    background-color:#afb96e;
+}
+
+aside{
+    width: 47%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 0px;
+}
+
+
+/* Priority table */
+.priority{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.begin-row{
+    border-radius: 4px 0 0 4px;
+}
+
+.end-row{
+    border-radius: 0 4px 4px 0;
+}
+
+th {
+    height: 40px;
+    text-align: center;
+    background-color: rgb(8, 126, 177);
+    color: rgb(243, 232, 212);
+  }
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 4px 0px;
+  }
+
+tr:nth-child(even) {
+    background-color: rgb(243, 228, 198);
+}
+
+.left{
+    text-align: left;
+}
