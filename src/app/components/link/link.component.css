@@ -7,8 +7,9 @@
 
 .content{
     width: 100%;
-    height: 411px;
-    background-color:#FFC700;
+    height: 422px;
+    background-color: #F3E8D4;
+    /* background-color:#FFC700; */
     /* overflow: scroll; */
 }
 
@@ -24,7 +25,7 @@ article{
 
 h1{
     padding: 10px;
-    color: #e7a935;
+    color: #efd39b;
 }
 /* table */
 table {
@@ -40,7 +41,8 @@ table {
   }
 
   th, td {
-    border-bottom: 1px solid #f4d872;
+    /* border-bottom: 1px solid #f4d872; */
+    border-bottom: 1px solid #F3E8D4;
     padding: 5px;
   }
 
@@ -49,5 +51,6 @@ table {
   }
 
   tr:nth-child(even) {
-    background-color: #f7cf3f;
+    /* background-color: #F3E4C6; */
+    background-color: #F3E8D4;
 }
