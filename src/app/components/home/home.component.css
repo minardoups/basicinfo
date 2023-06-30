@@ -18,7 +18,7 @@
 section{
     width: 60%;
     float: left;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 5px;
 }
 
@@ -33,7 +33,7 @@ article p{
 
 aside{
     width: 30%;
-    margin-left: 75px;
+    margin-left: 50px;
     float: left;
 }
 
